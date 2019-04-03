@@ -1,5 +1,6 @@
 name: ${project.name}
 version: '${minecraft.plugin.version}'
+api-version: 1.13
 main: de.themoep.cheaperphysicsevent.CheaperPhysicsEvent
 authors: [Phoenix616]
 description: ${project.description}
