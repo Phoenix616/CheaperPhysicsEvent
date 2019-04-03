@@ -1,0 +1,3 @@
+# List of plugins which's BlockPhysicsEvent listeners should be replaced
+# Empty list means all plugins
+plugins: []

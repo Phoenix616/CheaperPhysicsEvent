@@ -1,0 +1,19 @@
+name: ${project.name}
+version: '${minecraft.plugin.version}'
+main: de.themoep.cheaperphysicsevent.CheaperPhysicsEvent
+authors: [Phoenix616]
+description: ${project.description}
+commands:
+  cheaperphysicsevent:
+      aliases: [cpe]
+      description: Main CheaperPhysicsEvent command
+      usage: /<command> [reload]
+      permission: cheaperphysicsevent.command
+      permission-message: You don't have the permission <permission>
+permissions:
+  cheaperphysicsevent.command:
+      description: Gives permission to the plugin command
+      default: op
+  cheaperphysicsevent.command.reload:
+      description: Gives permission to reload the plugin
+      default: op
